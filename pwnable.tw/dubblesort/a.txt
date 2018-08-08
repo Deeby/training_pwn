@@ -1,0 +1,20 @@
+
+esp
+
+num[8]
+1 system
+2
+3
+canary adsfas 
+
+ebp
+return
+
+dubblesort
+bubblesort
+
+
+
+
+num  <    canary-1 < canary <   ebp (system-1) < sytem (ret) < ret system+1 < /bin/sh
+0 0  0 0 0 0< canary < sytem-1 < system < system +1 < /bin/sh

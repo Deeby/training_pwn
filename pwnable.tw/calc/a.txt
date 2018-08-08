@@ -1,0 +1,40 @@
+ebp - 0x8c buff
+ebp -	 0x90: a2  a2[v4 + 1] = v9 , a2[0] = 0 a[1]=1 a[2]=1
+eax : v4 = (*a2)++
+ebp - 0x88; v5 = buff / v5 = i+1+buffi = 0
+ebp - 0x80: v7 = 	0
+ebp - 0x84 : i = 3
+ebp - 0x7c : v2 = i + buff - v5 = 1
+ebp - 0x78: s1
+ebp - 0x74: v9 = 1
+ebp - 0x70: s[v7]
+
+1 0 1 
+
+
+pool[0] = index 
+pool[index +1] = number
+00+00+100+128
+
+
+00+0
+pools[0] = 0
+index = 0
+pools[index - 1] += pools[index]; 	
+pool[-1] = 0
+
+--*poll >> index = -1
+
+
++100
+*pool++  >> pool[0] = 0;
+pool[1] = 100
+pools[*pools - 1] += pools[*pools]; 
+pool[99] = 100
+--pool[0] >> pool=[0] = 99
+
++128
+*pool++ >> pool[0] = 1
+
+pool[100] = 128
+ 
